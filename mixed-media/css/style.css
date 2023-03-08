@@ -1,0 +1,11 @@
+body {
+    background: -webkit-linear-gradient(orange, blue); 
+    background: -o-linear-gradient(orange, blue); 
+    background: -moz-linear-gradient(orange, blue);
+    background: linear-gradient(orange, blue); 
+	background-attachment: fixed;
+}
+table, tr, td, th {
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
