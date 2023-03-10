@@ -1,8 +1,8 @@
 body {
-    background: -webkit-linear-gradient(green, white); 
-    background: -o-linear-gradient(green, white); 
-    background: -moz-linear-gradient(green, white);
-    background: linear-gradient(green, white); 
+    background: -webkit-linear-gradient(green, lightblue); 
+    background: -o-linear-gradient(green, lightblue); 
+    background: -moz-linear-gradient(green, lightblue);
+    background: linear-gradient(green, lightblue); 
 	background-attachment: fixed;
 }
 table, tr, td, th {
