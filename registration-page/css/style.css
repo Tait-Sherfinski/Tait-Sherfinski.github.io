@@ -14,3 +14,7 @@ select {
     border-radius: 5px;
     border-color: gray
 }
+
+p {
+    display: inline-block;
+}
