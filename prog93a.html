@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Prog93a class="html"></Prog93a></title>
+</head>
+<body>
+    <Label for="kw">Kilowatts:</Label>
+    <input type="number" id="kw" name="kw">
+    <p id="output"></p>
+
+    <button onclick="
+    var kw = document.getElementById('kw').value;
+    var baserate = kw * 0.0475;
+    var surcharge = baserate * 0.10;
+    var citytax = baserate * 0.03;
+    var total = baserate + surcharge + citytax;
+    var latetotal = (total * 0.04) + total;
+
+    var output = document.getElementById('output');
+    output.innerText = 'Base Rate' + baserate;
+    "
+</body>
+</html>
