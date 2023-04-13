@@ -10,6 +10,10 @@
     <Label for="kw">Kilowatts:</Label>
     <input type="number" id="kw" name="kw">
     <p id="output"></p>
+    <p id="output2"></p>
+    <p id="output3"></p>
+    <p id="output4"></p>
+    <p id="output5"></p>
 
     <button onclick="
     var kw = document.getElementById('kw').value;
@@ -20,7 +24,11 @@
     var latetotal = (total * 0.04) + total;
 
     var output = document.getElementById('output');
-    output.innerText = 'Base Rate' + baserate;
-    "
+    output.innerText = 'Base Rate: ' + baserate.toFixed(2);
+    output2.innerText = 'Surcharge: ' + surcharge.toFixed(2);
+    output3.innerText = 'City Tax: ' + citytax.toFixed(2);
+    output4.innerText = 'Pay this amount: : ' + total.toFixed(2);
+    output5.innerText = 'Pay if late: ' + latetotal.toFixed(2);
+    ">Calculate</button>
 </body>
 </html>
