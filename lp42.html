@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LP4-2</title>
+</head>
+<body>
+    <label for="weight">Weight in kilograms</label>
+    <input type="number" id="weight" name="weight"><br>
+    <label for="length">Length in centimeters</label>
+    <input type="number" id="length" name="length"><br>
+    <label for="width">Width in centimeters</label>
+    <input type="number" id="width" name="width"><br>
+    <label for="height">Height in centimeters</label>
+    <input type="number" id="height" name="height"><br>
+    <button onclick="calculate()">Calculate</button>
+    <p id="out"></p>
+
+    <script>
+        function calculate()
+        var weight = document.getElementById("weight").value;
+        var length = document.getElementById("length").value;
+        var width = document.getElementById("width").value;
+        var height = document.getElementById("height").value;
+        var size = length * width * height;
+        var out = document.getElementById('out');
+        if (weight > 27) {
+            out.innerText = "Too heavy"
+        }
+        if (size > 100,000) {
+            out.innerText = "Too large"
+        }
+        if (weight > 27 && size > 100,000) {
+            out.innerText = "Too heavy and too large"
+        }
+    </script>
+</body>
+</html>
