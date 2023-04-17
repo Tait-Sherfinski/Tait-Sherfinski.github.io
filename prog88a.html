@@ -13,6 +13,12 @@
     <input type="number" id="num2" name="num2" min="2" max="20">
     <button onclick="doMath();">Calculate</button>
     <p id="out"></p>
+    <p id="out2"></p>
+    <p id="out3"></p>
+    <p id="out4"></p>
+    <p id="out5"></p>
+    <p id="out6"></p>
+    <p id="out7"></p>
 
     <script>
         function domath() {
@@ -39,14 +45,19 @@
             }
 
             var p = document.getElementById("out");
-            p.innerHTML = "";
-            p.innerHTML += "Sum: " + sum + "<br/>";
-            p.innerHTML += "Difference: " + diff + "<br/>";
-            p.innerHTML += "Product: " + product + "<br/>";
-            p.innerHTML += "Average: " + avg + "<br/>";
-            p.innerHTML += "Absolute Value: " + abs + "<br/>";
-            p.innerHTML += "Max: " + max + "<br/>";
-            p.innerHTML += "Min: " + min + "<br/>";
+            p.innerText += "Sum: " + sum + "<br/>";
+            var p = document.getElementById("out2");
+            p.innerText += "Difference: " + diff + "<br/>";
+            var p = document.getElementById("out3");
+            p.innerText += "Product: " + product + "<br/>";
+            var p = document.getElementById("out4");
+            p.innerText += "Average: " + avg + "<br/>";
+            var p = document.getElementById("out5");
+            p.innerText += "Absolute Value: " + abs + "<br/>";
+            var p = document.getElementById("out6");
+            p.innerText += "Max: " + max + "<br/>";
+            var p = document.getElementById("out7");
+            p.innerText += "Min: " + min + "<br/>";
         }
     </script>
 </body>
