@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog122b</title>
+</head>
+<body>
+    <p id="out"></p>
+
+    <script>
+        var msg = "Hours\tPay\n"
+        var lcv =1;
+        while (lcv <= 40) {
+            msg += lcv + " " + lcv * 4 + "\n";
+            lcv++;
+        }
+        document.getElementById("out").innerText = msg;
+    </script>
+</body>
+</html>
