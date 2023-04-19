@@ -5,8 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mortgage Calculator</title>
+    <script src="external.js" defer></script>
 </head>
 <body>
-    
+    <label for="principal">Principal </label>
+    <input type="number" id="principal" name="principal"><br>
+    <label for="intrate">Interest Rate </label>
+    <input type="number" id="intrate" name="intrate"><br>
+    <label for="numyears">Number of Years </label>
+    <input type="number" id="numyears" name="numyears"><br>
+    <label for="monpay">Monthly Payment </label>
+    <input type="number" id="monpay" name="monpay"><br>
+    <button onclick="calc()">Calculate</button>
+    <button onclick="reset()">Reset</button>
+    <p id="out"></p>
 </body>
 </html>
