@@ -1,22 +1,23 @@
 function calc() {
     var out = document.getElementById("out");
-    var principal = document.getElementById("principal");
-    var intrate = document.getElementById("intrate");
-    var numyears = document.getElementById("numyears");
-    var monpay = document.getElementById("monpay");
-    var balance = principal * 1 + intrate / 12**12*numyears - monpay * 1 + intrate / 12**12*numyears - 1 / intrate / 12;
-    out.innerText = "Remaining Loan Balance: " + balance;
+    var p = document.getElementById("principal");
+    var r = document.getElementById("intrate");
+    var t = document.getElementById("numyears");
+    var m = document.getElementById("monpay");
+    var n = 12;
+    var b = p * (1 + r / n)**n*t - m * [(1 + r / n)**n*t - 1] / (r / n);
+    out.innerText = "Remaining Loan Balance: " + b;
 }
 
 function reset() {
     var out = document.getElementById("out");
-    var principal = document.getElementById("principal");
-    var intrate = document.getElementById("intrate");
-    var numyears = document.getElementById("numyears");
-    var monpay = document.getElementById("monpay");
-    principal.value = "";
-    intrate.value = "";
-    numyears.value = "";
-    monpay.value = "";
+    var p = document.getElementById("principal");
+    var r = document.getElementById("intrate");
+    var t = document.getElementById("numyears");
+    var m = document.getElementById("monpay");
+    p.value = "";
+    r.value = "";
+    t.value = "";
+    m.value = "";
     out.innerText = "";
 }
