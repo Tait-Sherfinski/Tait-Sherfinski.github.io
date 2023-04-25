@@ -9,14 +9,15 @@
     <script src="external.js" defer></script>
 </head>
 <body>
-    <label for="principal">Principal </label>
-    <input type="number" id="principal" name="principal"><br>
-    <label for="intrate">Interest Rate </label>
-    <input type="number" id="intrate" name="intrate"><br>
-    <label for="numyears">Number of Years </label>
-    <input type="number" id="numyears" name="numyears"><br>
-    <label for="monpay">Monthly Payment </label>
-    <input type="number" id="monpay" name="monpay"><br>
+    <h1>Remaining Loan Balance Calculator</h1>
+    <label for="principal">Principal: </label>
+    <input type="number" id="principal" name="principal" min="0" placeholder="0" required><br>
+    <label for="intrate">Interest Rate: </label> &emsp; &emsp;
+    <input type="number" id="intrate" name="intrate" min="0" max="1" placeholder="0.00" required><br>
+    <label for="numyears">Number of Years: </label> &nbsp;
+    <input type="number" id="numyears" name="numyears" min="0" placeholder="0" required><br>
+    <label for="monpay">Monthly Payment: </label>
+    <input type="number" id="monpay" name="monpay" min="0" placeholder="0" required><br>
     <button onclick="calc()">Calculate</button>
     <button onclick="reset()">Reset</button>
     <p id="out"></p>
