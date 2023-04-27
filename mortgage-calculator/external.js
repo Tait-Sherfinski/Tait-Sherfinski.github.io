@@ -5,7 +5,7 @@ function calc() {
     var t = document.getElementById("numyears");
     var m = document.getElementById("monpay");
     var n = 12;
-    var b = p * (1 + r / n)**n * t - m * [(1 + r / n)**n * t - 1] / (r / n);
+    var b = 1 * p
     out.innerText = "Remaining Loan Balance: " + b;
 }
 

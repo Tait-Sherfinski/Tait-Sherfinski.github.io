@@ -1,5 +1,9 @@
 * {
-    background-color: lightgreen; 
+    background: -webkit-linear-gradient(lightsalmon, white); 
+    background: -o-linear-gradient(lightsalmon, white); 
+    background: -moz-linear-gradient(lightsalmon, white);
+    background: linear-gradient(lightsalmon, white); 
+	background-attachment: fixed; 
 }
 h1 {
     text-align: center;
