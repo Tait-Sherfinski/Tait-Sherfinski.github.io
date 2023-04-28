@@ -20,32 +20,6 @@
     <button onclick="calc()">Calculate</button>
     <button onclick="reset()">Reset</button>
     <p id="out"></p>
-
-    <script>
-        
-        function calc() {
-    var out = Number(document.getElementById("out"));
-    var p = Number(document.getElementById("principal"));
-    var r = Number(document.getElementById("intrate"));
-    var t = Number(document.getElementById("numyears"));
-    var m = Number(document.getElementById("monpay"));
-    var n = 12;
-    var b = 1 * p;
-    out.innerText = "Remaining Loan Balance: " + b;
-}
-
-function reset() {
-    var out = document.getElementById("out");
-    var p = document.getElementById("principal");
-    var r = document.getElementById("intrate");
-    var t = document.getElementById("numyears");
-    var m = document.getElementById("monpay");
-    p.value = "";
-    r.value = "";
-    t.value = "";
-    m.value = "";
-    out.innerText = "";
-}
-    </script>
+    <script src="external.js" defer></script>
 </body>
 </html>
