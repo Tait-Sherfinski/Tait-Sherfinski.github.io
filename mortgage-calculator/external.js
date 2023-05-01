@@ -1,11 +1,11 @@
 function calc() {
     var out = document.getElementById("out");
-    var p = document.getElementById("principal").value;
-    var r = document.getElementById("intrate").value;
-    var t = document.getElementById("numyears").value;
-    var m = document.getElementById("monpay").value;
+    var p = Number(document.getElementById("principal").value);
+    var r = Number(document.getElementById("intrate").value);
+    var t = Number(document.getElementById("numyears").value);
+    var m = Number(document.getElementById("monpay").value);
     var n = 12;
-    var b = Number(p * (1 + r / n)**n * t) - Number((m * [(1 + r / n)**n * t - 1]) / (r / n));
+    var b = (((r / n) + 1)**(n*t)) * p - ((((((r / n) + 1)**(n*t)) - 1) * m) / (r / n));
     out.innerText = "Remaining Loan Balance: " + b.toFixed(2);
 }
 
