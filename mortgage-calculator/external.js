@@ -6,7 +6,7 @@ function calc() {
     var m = Number(document.getElementById("monpay").value);
     var n = 12;
     var b = (((r / n) + 1)**(n*t)) * p - ((((((r / n) + 1)**(n*t)) - 1) * m) / (r / n));
-    out.innerText = "Remaining Loan Balance: " + b.toFixed(2);
+    out.innerText = "$" + b.toFixed(2);
 }
 
 function reset() {
