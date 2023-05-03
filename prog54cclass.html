@@ -21,15 +21,16 @@
             }
 
             calc() {
-
+                this.area = this.PI * radius**2 ;
+                this.circumference = 2 * this.PI * radius;
             }
 
             getArea() {
-                this.area = this.PI * radius**2 
+                 return this.area;
             }
 
             getCircumference() {
-                this.circumference = 2 * this.PI * radius
+                return this.circumference;
             }
         }
 
