@@ -8,7 +8,7 @@
 </head>
 <body>
     <input type="number" id="rad" name="rad">
-    <button onclick="domath()">Calculate</button>\
+    <button onclick="domath()">Calculate</button>
     <p id="out"></p>
 
     <script>
@@ -25,21 +25,16 @@
                 this.circumference = 2 * this.PI * radius;
             }
 
-            getArea() {
-                 return this.area;
-            }
-
-            getCircumference() {
-                return this.circumference;
-            }
+            getArea() { return this.area; }
+            getCircumference() { return this.circumference; }
         }
 
         function domath() {
             var rad = Number(document.getElementById("rad").value);
             var circ = new Circle(rad);
-            circ.calc();
-            document.getElementById("out").innerHTML = "Area: " + circ.getArea() + "<br/>Circumference: " 
-            + circ.getCircumference() + "<br/>";
+            calc();
+            document.getElementById("out").innerHTML = "Area: " + getArea() + "<br/>Circumference: " 
+            + getCircumference() + "<br/>";
         }
     </script>
 </body>
