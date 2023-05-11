@@ -1,6 +1,11 @@
 #main {
     font-family: georgia;
     font-style:normal;
-    text-shadow: 1.5px 1.5px lightblue;
-    text-align:center;
+    text-shadow: 1px 1px lightblue;
+    text-align:left;
+}
+
+img {
+    width: 200px;
+    position:absolute
 }
