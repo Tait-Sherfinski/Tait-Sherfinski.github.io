@@ -1,17 +1,21 @@
 img {
-    width: 500px;
+    width: 40%;
     display: -webkit-box;
-    margin-left: auto;
+    margin-left: 45%;
+    margin-top: -20%;
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     opacity: 85%;
-    text-shadow: 1px 1px lightblue;
+    text-shadow: 1px 1px dodgerblue;
+    font-size: 270%;
 }
 
 #about {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: bold;
+    text-shadow: 0.5px 0.5px;
+    font-size: 175%
 }
