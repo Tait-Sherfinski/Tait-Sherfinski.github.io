@@ -1,8 +1,7 @@
 img {
     width: 200px;
-    margin-left: 100%;
-    margin-top: -25%;
-    text-align: left;
+    display: -webkit-box;
+    margin-left: auto;
 }
 
 h1 {
