@@ -9,3 +9,9 @@ h1 {
     opacity: 85%;
     text-shadow: 1px 1px lightblue;
 }
+
+#about {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+}
