@@ -1,7 +1,6 @@
 img {
     width: 200px;
-    display: -webkit-box;
-    margin-left: auto;
+    text-align: right;
 }
 
 h1 {
