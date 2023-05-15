@@ -29,6 +29,10 @@ h1 {
 	float: left;
     padding: 10px;
     background-color: dodgerblue;
+    color: white;
+}
+a {
+    color: white;
 }
 
 
