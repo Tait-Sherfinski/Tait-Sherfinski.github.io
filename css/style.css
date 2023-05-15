@@ -20,3 +20,18 @@ h1 {
     text-shadow: 0.5px 0.5px;
     font-size: 175%
 }
+
+#links, div {
+    margin-left: 95%;
+    margin-top: -30%;
+    font-size: 20px;
+    width: 60px;
+	float: left;
+    padding: 10px;
+    background-color: dodgerblue;
+}
+
+
+hr {
+    margin-top: 40%;
+}
