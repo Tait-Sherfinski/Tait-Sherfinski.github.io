@@ -1,16 +1,29 @@
+* :not(h1, img, #links, p, a){
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: -webkit-linear-gradient(to right, dodgerblue, white);
+    background: -moz-linear-gradient(to right, dodgerblue, white);
+    background: -ms-linear-gradient(to right, dodgerblue, white);
+    background: -o-linear-gradient(to right, dodgerblue, white);
+    background: linear-gradient(to right, dodgerblue, white);
+}
 img {
     width: 30%;
     display: -webkit-box;
-    margin-left: 50%;
-    margin-top: -15%;
+    margin-left: 60%;
+    margin-top: -16%;
+    background-color: none;
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     opacity: 85%;
-    text-shadow: 1px 1px dodgerblue;
     font-size: 350%;
-    margin-top: 12.5%;
+    margin-top: 15%;
+    margin-left: 10%;
 }
 
 #about {
@@ -21,21 +34,23 @@ h1 {
     font-size: 175%
 }
 
-#links, div {
-    margin-left: 95%;
+#links {
+    margin-left: 93.5%;
     margin-top: -30%;
     font-size: 20px;
-    width: 60px;
+    width: 75px;
 	float: left;
     padding: 10px;
-    background-color: dodgerblue;
-    color: white;
+    background-color: white;
+    opacity: 50%;
+    color: dodgerblue;
+    text-align: center;
 }
 a {
-    color: white;
+    color: dodgerblue;
 }
 
 
 hr {
-    margin-top: 40%;
+    margin-top: 12%;
 }
