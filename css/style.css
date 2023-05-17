@@ -41,8 +41,8 @@ h1 {
     width: 75px;
 	float: left;
     padding: 10px;
-    background-color: white;
-    opacity: 50%;
+    background-color: transparent;
+    opacity: 100%;
     color: dodgerblue;
     text-align: center;
 }
