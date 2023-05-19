@@ -2,9 +2,9 @@ body {
     margin: 0;
 }
 img {
-    width: 30%;
+    width: 35%;
     display: -webkit-box;
-    margin-left: 60%;
+    margin-left: 50%;
     margin-top: -32%;
     background-color: none;
 }
@@ -14,7 +14,7 @@ h1 {
     opacity: 85%;
     font-size: 350%;
     margin-bottom: 15%;
-    margin-left: 10%;
+    margin-left: -7.5%;
 }
 
 #about {
