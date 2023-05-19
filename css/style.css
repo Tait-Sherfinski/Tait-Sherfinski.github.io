@@ -5,7 +5,7 @@ img {
     width: 30%;
     display: -webkit-box;
     margin-left: 60%;
-    margin-top: -20%;
+    margin-top: -32%;
     background-color: none;
 }
 
@@ -13,7 +13,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     opacity: 85%;
     font-size: 350%;
-    margin-top: 15%;
+    margin-bottom: 15%;
     margin-left: 10%;
 }
 
@@ -77,6 +77,6 @@ hr {
     background: -ms-linear-gradient(to right, dodgerblue, white);
     background: -o-linear-gradient(to right, dodgerblue, white);
     background: linear-gradient(to right, dodgerblue, white);
-    padding: 150px;
+    padding: 215px;
     padding-right: 0px;
   }
