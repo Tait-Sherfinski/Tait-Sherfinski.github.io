@@ -1,24 +1,11 @@
 body {
     margin: 0;
 }
-
-* :not(h1, img, #links, p, a, .footer, #aboutme){
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background: -webkit-linear-gradient(to right, dodgerblue, white);
-    background: -moz-linear-gradient(to right, dodgerblue, white);
-    background: -ms-linear-gradient(to right, dodgerblue, white);
-    background: -o-linear-gradient(to right, dodgerblue, white);
-    background: linear-gradient(to right, dodgerblue, white);
-}
 img {
     width: 30%;
     display: -webkit-box;
     margin-left: 60%;
-    margin-top: -16%;
+    margin-top: -20%;
     background-color: none;
 }
 
@@ -47,7 +34,7 @@ h1 {
 
 #links {
     margin-left: 93.5%;
-    margin-top: -30%;
+    margin-top: -40%;
     font-size: 20px;
 	float: left;
     padding: 10px;
@@ -62,21 +49,34 @@ a {
 
 
 hr {
-    margin-top: 7%;
+    margin-top: 0%;
     background-color: black;
 }
 .footer {
-            background-color: white;
-            text-align: center;
-            position: absolute;
-            height: 100px;
-            width: 100%;
-            color: black;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    height: max-content;
+    width: 100%;
+    color: black;
   }
 
   #aboutme {
-    background-color: white;
     margin: 0%;
     width: 100%;
-    height: 100%;
+    height:max-content
+  }
+  .header {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: -webkit-linear-gradient(to right, dodgerblue, white);
+    background: -moz-linear-gradient(to right, dodgerblue, white);
+    background: -ms-linear-gradient(to right, dodgerblue, white);
+    background: -o-linear-gradient(to right, dodgerblue, white);
+    background: linear-gradient(to right, dodgerblue, white);
+    padding: 150px;
+    padding-right: 0px;
   }
