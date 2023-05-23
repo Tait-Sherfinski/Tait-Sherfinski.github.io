@@ -80,3 +80,87 @@ hr {
     padding: 215px;
     padding-right: 0px;
   }
+
+  @media screen and (max-width: 500px) {
+    body {
+        margin: 0;
+    }
+    img {
+        width: 60%;
+        display: -webkit-box;
+        margin-left: -60%;
+        margin-top: -10%;
+        background-color: none;
+    }
+    
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        opacity: 85%;
+        font-size: 250%;
+        margin-left: -110%;
+        margin-top: -20%;
+    }
+    
+    #about {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: bold;
+        font-weight: 1000;
+        font-size: 175%
+    }
+    #aboutp {
+        font-style: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 4%;
+    }
+    
+    #links {
+        margin-left: 65%;
+        margin-top: -170%;
+        font-size: 17px;
+        float: left;
+        padding: 10px;
+        background-color: transparent;
+        opacity: 100%;
+        color: transparent;
+        text-align: center;
+    }
+    a {
+        color: black;
+    }
+    
+    
+    hr {
+        margin-top: 0%;
+        background-color: black;
+    }
+    .footer {
+        background-color: white;
+        text-align: center;
+        position: absolute;
+        height: max-content;
+        width: 100%;
+        color: black;
+      }
+    
+      #aboutme {
+        margin: 0%;
+        width: 100%;
+        height:max-content
+      }
+      .header {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background: -webkit-linear-gradient(to right, dodgerblue, white);
+        background: -moz-linear-gradient(to right, dodgerblue, white);
+        background: -ms-linear-gradient(to right, dodgerblue, white);
+        background: -o-linear-gradient(to right, dodgerblue, white);
+        background: linear-gradient(to right, dodgerblue, white);
+        padding: 250px;
+        padding-right: 0px; }
+  }
