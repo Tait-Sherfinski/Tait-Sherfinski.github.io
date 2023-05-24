@@ -25,11 +25,36 @@ h2 {
     font-size: 175%
 }
 #bodyp {
-    font-style: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     margin-left: 8%;
     margin-right: 8%;
     margin-top: 4%;
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 4%;
+}
+
+input {
+    width: 50%;
+    height: 20px;
+    margin-left: -5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+button {
+    margin-left: 10%;
+    width: 120px;
+    background-color: lightblue;
+    font-size: 30px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #links {
