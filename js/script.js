@@ -5,9 +5,9 @@ function reset() {
     var reason = document.getElementById("reas");
     var message = document.getElementById("mess");
 
-    name.value = "";
-    email.value = "";
-    subject.value = "";
-    reason.value = "";
-    message.value = "";
+    name.innerHTML = "";
+    email.innerHTML = "";
+    subject.innerHTML = "";
+    reason.innerHTML = "";
+    message.innerHTML = "";
 }
