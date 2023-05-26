@@ -42,10 +42,10 @@ label {
 
 input {
     width: 80%;
-    height: 25px;
+    height: 35px;
     margin-left: 5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 30px;
     margin-top: 5%;
     margin-right: 5%;
 }
@@ -61,12 +61,15 @@ button {
     color: white;
     opacity: 85%;
 }
+button:hover {
+  background-color: lightblue;
+}
 
 #links {
     margin-left: 92%;
     margin-top: -40%;
     font-size: 20px;
-	float: left;
+	  float: left;
     padding: 10px;
     background-color: transparent;
     opacity: 100%;
