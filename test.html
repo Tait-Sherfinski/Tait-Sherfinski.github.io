@@ -6,21 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        * {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background: -webkit-linear-gradient(to right, dodgerblue, black);
-    background: -moz-linear-gradient(to right, dodgerblue, black);
-    background: -ms-linear-gradient(to right, dodgerblue, black);
-    background: -o-linear-gradient(to right, dodgerblue, black);
-    background: linear-gradient(to right, dodgerblue, black);
+        .container {
+            width: 100%;
+            height: 100vh;
+            background: #ffe3e3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .container img {
+            width: 75%;
         }
     </style>
 </head>
 <body>
-    <p>Hello, World.</p>
+    <div class="container">
+        <img src="mixed-media/forest.jpg">
+        <h1 id="current-time">12:00:00</h1>
+        <div class="quotes">
+            <p>Todays Quotes</p>
+            <h2>Lost time is never found again</h2>
+        </div>
+    </div>
 </body>
 </html>

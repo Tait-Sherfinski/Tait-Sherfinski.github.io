@@ -5,16 +5,17 @@ function reset() {
     var reason = document.getElementById("reas");
     var message = document.getElementById("mess");
 
-    name.innerText = "";
-    email.innerText = "";
-    subject.innerText = "";
-    reason.innerText = "";
-    message.innerText = "";
+    name.innerHTML = "";
+    email.innerHTML = "";
+    subject.innerHTML = "";
+    reason.innerHTML = "";
+    message.innerHTML = "";
 }
 
-let time = document.getElementById("current-time");
-
-setInterval(() =>{
-    let d = new Date();
-    time.innerHTML = d.toLocaleTimeString()
-}, 1000)
+function updateTime() {
+    var date = new Date();
+    var s = ("0" + date.getSeconds()).slice(-2);
+    var m = ("0" + date.getMinutes()).slice(-2);
+    var h = ("0" + date.getHours()).slice(-2);
+    document.getElementById("clock").innerHTML = h + ":" + m + ":" + s; }
+    setInterval(updateTime, 1000)

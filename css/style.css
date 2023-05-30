@@ -154,14 +154,13 @@ color: black; }
   .dropdown:hover .dropbtn {background-color: white;
 color: black; }
 
-.clock {
-  width: 100%;
-  height: 100px;
-  background: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+#clock {
+    margin-left: 50%;
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-weight: 1000;
+    font-size: 500%;
 }
 
   @media screen and (max-width: 500px) {
