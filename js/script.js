@@ -5,11 +5,11 @@ function reset() {
     var reason = document.getElementById("reas");
     var message = document.getElementById("mess");
 
-    name.innerHTML = "";
-    email.innerHTML = "";
-    subject.innerHTML = "";
-    reason.innerHTML = "";
-    message.innerHTML = "";
+    name.value = "";
+    email.value = "";
+    subject.value = "";
+    reason.value = "";
+    message.value = "";
 }
 
 function updateTime() {
@@ -19,3 +19,9 @@ function updateTime() {
     var h = ("0" + date.getHours()).slice(-2);
     document.getElementById("clock").innerHTML = h + ":" + m + ":" + s; }
     setInterval(updateTime, 1000)
+
+function showDate() {
+    var date = new Date();
+    var n = date.toDateString();
+    document.getElementById('cal').innerHTML = n;
+}
