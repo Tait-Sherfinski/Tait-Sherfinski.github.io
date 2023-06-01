@@ -12,16 +12,6 @@ function reset() {
     message.value = "";
 }
 
-function updateTime() {
-    var date = new Date();
-    var s = ("0" + date.getSeconds()).slice(-2);
-    var m = ("0" + date.getMinutes()).slice(-2);
-    var h = ("0" + date.getHours()).slice(-2);
-    document.getElementById("clock").innerHTML = h + ":" + m + ":" + s; }
-    setInterval(updateTime, 1000)
-
-function showDate() {
-    var date = new Date();
-    var n = date.toDateString();
-    document.getElementById('cal').innerHTML = n;
-}
+function show() {
+    
+} 
