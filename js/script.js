@@ -13,5 +13,5 @@ function reset() {
 }
 
 function show() {
-    
+    $(".dropdown").fadeIn(3000);
 } 
