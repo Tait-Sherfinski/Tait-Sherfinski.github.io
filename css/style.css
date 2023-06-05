@@ -192,6 +192,11 @@ color: black; }
   color: white;
 }
 
+#clock:hover {
+  background-color: #E16F00;
+  color: black;
+}
+
   @media screen and (max-width: 500px) {
     body {
         margin: 0;
