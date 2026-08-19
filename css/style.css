@@ -1,20 +1,19 @@
 body {
     margin: 0;
 }
+
 img {
-    width: 35%;
-    display: -webkit-box;
-    margin-left: 50%;
-    margin-top: -32%;
-    background-color: none;
+    margin-left: -30%;
+    margin-top: 7%;
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     opacity: 85%;
     font-size: 350%;
-    margin-bottom: 15%;
-    margin-left: -7.5%;
+    margin-bottom: 0%;
+    margin-top: -15%;
+    margin-left: -30%;
 }
 
 h2 {
@@ -77,18 +76,19 @@ button:hover {
 }
 
 #links {
-    margin-left: 92%;
-    margin-top: -40%;
-    font-size: 20px;
-	  float: left;
-    padding: 10px;
+    text-decoration: none;
+    margin-left: 0%;
+    margin-top: -30%;
+    font-size: 40px;
+    padding: 0px;
     background-color: transparent;
     opacity: 100%;
     color: transparent;
-    text-align: center;
+    text-align: right;
 }
 a {
     color: black;
+    text-decoration: none;
 }
 
 
@@ -117,20 +117,18 @@ hr {
     width: 100%;
     height:max-content
   }
+  .vertical-line {
+      border-left: 2px solid black;
+      height: 100px;
+      margin: 20px;
+  }
   .header {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-color: darkblue;
     background-size: cover;
     background-repeat: no-repeat;
-    background: -webkit-linear-gradient(to right, dodgerblue, white);
-    background: -moz-linear-gradient(to right, dodgerblue, white);
-    background: -ms-linear-gradient(to right, dodgerblue, white);
-    background: -o-linear-gradient(to right, dodgerblue, white);
-    background: linear-gradient(to right, dodgerblue, white);
-    padding: 215px;
-    padding-right: 0px;
-  }
+    padding: 25%;
+    padding-right: 0%;
+}
 
   .dropbtn {
     background-color: dodgerblue;
